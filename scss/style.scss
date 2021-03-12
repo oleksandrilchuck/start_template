@@ -1,0 +1,80 @@
+@import "null";
+@import url('');
+@import "vendor";
+@import "global";
+
+// header
+// .header {
+//     position: fixed;
+//     width: 100%;
+//     top: 0;
+//     left: 0;
+//     z-index: 50;
+// }
+// .header::before{
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     // background-color: aqua;
+//     background: linear-gradient(180deg, #0C1024 40.63%, rgba(12, 16, 36, 0) 100%);
+//     z-index: 2;
+// }
+// .header__body {
+//     position: relative;
+//     display: flex;
+//     justify-content: space-between;
+//     height: 120px;
+//     align-items: center;
+// }
+// .header__logo {
+//     flex: 0 0 120px;
+//     border-radius: 50%;
+//     overflow: hidden;
+//     position: relative;
+//     z-index: 3;
+// }
+// .header__logo img{
+//     max-width: 100%;
+//     display: block;
+// }
+// .header__burger {
+//     display: none;
+// }
+// .header__menu {
+// }
+// .header__list {
+//     display: flex;
+//     position: relative;
+//     z-index: 2;
+// }
+// .header__list li {
+//     list-style: none;
+//     margin: 0px 0px 0px 20px;
+// }
+// .header__link {
+//     text-transform: uppercase;
+//     color: $color-white;
+//     font-size: $nav-text;
+//     text-decoration: none;
+//     transition: all .5s;
+// }
+// .header__link:hover{
+//     color: $color-red;
+// }
+.par{
+    
+}
+
+
+
+
+
+
+
+
+
+
+@import "mobile";
